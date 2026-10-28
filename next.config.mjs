@@ -15,6 +15,15 @@ const nextConfig = {
       },
     },
   },
+  // الإضافة الجديدة الخاصة بالصور
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'shutterstock.sa7eer.com',
+      },
+    ],
+  },
 };
 
 export default nextConfig;
